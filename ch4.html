@@ -1,0 +1,121 @@
+<!-- 
+  git status
+  git add .
+  git commit -m "Added new features"
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style1.css" />
+    <title>List,Table</title>
+  </head>
+  <body>
+    <div>
+      <main>
+        <div class="nav">
+          <div class="logo"><img src="lg.webp" alt="eagle" /></div>
+          <ul id="ul" type="none">
+            <li>Serieal no</li>
+            <li>Players name</li>
+            <li>Game</li>
+            <li>MAx score</li>
+            <li class="btn">
+              <button
+                class="GFG"
+                onclick="window.location.href = 'https://en.wikipedia.org/wiki/Sport';"
+              >
+                Click Here
+              </button>
+            </li>
+          </ul>
+        </div>
+        <h1>Table Of Given List</h1>
+
+        <table>
+          <caption>
+            <u>Free Fire Game's Information.</u>
+          </caption>
+          <h3>Table:1</h3>
+          <thead>
+            <tr>
+              <th>Serieal no</th>
+              <th>Players name</th>
+              <th>Game</th>
+              <th>MAx score</th>
+            </tr>
+
+            <tr>
+              <td>1</td>
+              <td>Zaid Shaikh</td>
+              <td>Free Fire</td>
+              <td>125</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2</td>
+              <td>Kaif Shaikh</td>
+              <td>Free Fire</td>
+              <td>154</td>
+            </tr>
+
+            <tr>
+              <td>3</td>
+              <td>Rehan Shaikh</td>
+              <td>Free Fire</td>
+              <td>169</td>
+            </tr>
+          </tbody>
+        </table>
+        <br />
+        <br />
+        <br />
+
+        <h3>Table:2</h3>
+        <!-- table 2 with colspan arrtibute -->
+        <table>
+          <!-- <caption>
+          <u>Free Fire Game's Information.</u>
+        </caption> -->
+          <thead>
+            <tr>
+              <!-- colspan ek atrribute he jo th me use hota he
+                    ek se zyada column ko ek hi th me use karne ke liye.-->
+              <th>Serieal no</th>
+              <th>Players name</th>
+              <th colspan="2">Game</th>
+              <!-- <th>MAx score</th> -->
+              <!-- for colspan -->
+            </tr>
+
+            <tr>
+              <td>1</td>
+              <td>Zaid Shaikh</td>
+              <td>Free Fire</td>
+              <td>125</td>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>2</td>
+              <td>Kaif Shaikh</td>
+              <td>Free Fire</td>
+              <td>154</td>
+            </tr>
+
+            <tr>
+              <td>3</td>
+              <td>Rehan Shaikh</td>
+              <td>Free Fire</td>
+              <td>169</td>
+            </tr>
+          </tbody>
+        </table>
+      </main>
+    </div>
+  </body>
+</html>

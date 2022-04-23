@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url("px6.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.div1{
+    display:flex;
+    margin-top: 0px;
+    font-size: 2em;
+    padding-left: 2em;
+    /* background-color: black; */
+    color: black;
+    height: 2.5em;
+    align-items: center;
+}
+
+.ul{
+    display:flex;
+    align-items: center;
+    /* padding-left: 2em; */
+    margin-left: 4em;
+    transition: transform .5s;
+}
+
+.li:hover{
+    transform: scale(1.1);
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+.logo{
+    font-family: 'serif';
+    cursor: pointer;
+}
+
+.img{
+    transition: transform .5s ease;
+}
+
+.img:hover{
+    transform: scale(1.1);
+}
+
+.span2{
+    font-family: 'serif';
+    color: black;
+}
+
+.li{
+    font-family: 'serif';
+    margin-left: 2em;
+}
+
+/* .btn{
+    
+    margin-left: 8em;
+    border: solid aqua;
+    color: moccasin;
+    transition: transform .5s;
+    /* border-radius: 40%;  */
+    /* background-color: palegreen; */
+    
+
+
+
+/* .btn:hover{
+    background-color: cornsilk;
+    transform: scale(1.1);
+} */
+
+/* .btn1{
+    font-family: 'serif';
+    font-size: 25px;
+}
+
+.btn1:link {
+
+  text-decoration: none;
+} */
+
+.search{
+    float: right;
+    margin-left: 10em;
+    font-size: 17px;
+    
+    
+}
+
+#search{
+    padding: 5px;
+    padding-left: 43px;
+    border-radius: 150px;
+    transition: transform .5s;
+    
+}
+
+#search:hover{
+     transform: scale(1.1);
+     background-color: antiquewhite;
+}
+
